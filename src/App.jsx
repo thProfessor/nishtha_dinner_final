@@ -26,7 +26,9 @@ function App() {
 
   return (
     <>
-  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", backgroundColor: "#940808", padding: "20px",gap:"20px" }}>
+  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", backgroundColor: "#940808", padding: "20px",gap:"20px",minHeight: "100vh",
+  maxWidth: "100vw",
+  overflow: "hidden",boxSizing:'border-box' }}>
     <motion.div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
      <motion.h1
         style={{ fontSize: "32px", fontWeight: "bold", marginBottom: "20px",textDecoration: "underline"}}
